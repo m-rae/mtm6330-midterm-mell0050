@@ -158,13 +158,18 @@ main {
   }
 }
 .form-box {
+  width: 100%;
   padding: 0 0 1rem 0;
+  background-color: $gray-darker;
+
   .form-box:nth-child(5) label {
     display: inline-block;
   }
+
   fieldset {
     border: 1px solid $gray-lightest;
   }
+
   label {
     display: block;
   }
